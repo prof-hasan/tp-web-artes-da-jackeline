@@ -8,6 +8,6 @@ Este projeto consiste em criar uma interface gráfica para um e-commerce destina
   - **Cor do Titulo :** <span style="background-color:#FF004D; color:black">#FF004D</span>;
   - **Cor do Corpo :** <span style="background-color:#FFFFFF; color:black">#FFFFFF</span>;
 
-### **Fonte Utilizadas**
+### **Fontes Utilizadas**
   - **Fonte do Menu :** Oswald;
   - **Fonte de Texto :** Jacques  Francois Shadow
