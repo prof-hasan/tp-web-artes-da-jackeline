@@ -1,24 +1,20 @@
 # Requisitos de Boas Práticas de Programação
 
-1. **Padrões de Codificação Consistentes:**
-   - Utilize um guia de estilo de codificação consistente em todo o projeto.
-   - Mantenha a consistência na nomenclatura de variáveis, funções e classes.
-   - Adote convenções de formatação de código para garantir legibilidade.
+1. **Padronização (Style-Guide):**
+   - Nomes de variáveis, funções e componentes em inglês
+   - Uso de espaçamento padronizado (4 tabs)
+   - Uso primário de aspas duplas
 
-2. **Comentários Descritivos:**
-   - Inclua comentários claros e concisos para explicar trechos de código complexos ou não triviais.
-   - Documente a intenção por trás de decisões de design ou implementação.
-   - Evite comentários redundantes que apenas descrevam o que o código está fazendo; em vez disso, foque em porquê.
+2. **Comentários:**
+   - Poucos comentários, somente quando necessário
 
-3. **Testes Unitários Abrangentes:**
-   - Escreva testes unitários para todas as partes críticas e funcionalidades do código.
-   - Garanta que os testes cubram casos positivos e negativos.
+3. **Testes unitários e de integração:**
+   - Testes unitários para testar snapshots de componentes
+   - Testes de integração para verificar a comunicação entre os módulos
 
-4. **Gerenciamento Eficiente de Dependências:**
-   - Utilize gerenciadores de pacotes para controlar e versionar as dependências do projeto.
-   - Minimize o acoplamento e evite dependências desnecessárias.
-   - Mantenha as dependências atualizadas para garantir segurança e compatibilidade.
+4. **Gerenciamento do projeto com branchs:**
+   - Utilizar a branch main trancada para commits diretos
+   - Permitir somente merge requests a partir de branchs ao realizar um commit para a main
 
-5. **Princípios de Modularidade e Reutilização:**
-   - Projete o código em módulos pequenos e coesos, promovendo a reutilização e facilitando a manutenção.
-   - Busque dividir o código em componentes independentes e bem definidos, favorecendo a escalabilidade e a extensibilidade do sistema.
+5. **Modularização em componente:**
+   - Divisão do código do frontend em pequenos componentes
