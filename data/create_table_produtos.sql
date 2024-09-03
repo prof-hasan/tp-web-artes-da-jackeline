@@ -4,5 +4,5 @@ CREATE TABLE IF NOT EXISTS produtos (
     titulo VARCHAR(255) NOT NULL,
     descricao TEXT,
     tags TEXT[],
-    preco NUMERIC(10, 2) NOT NULL
+    preco NUMERIC(10, 2) NOT NULL,
 )
