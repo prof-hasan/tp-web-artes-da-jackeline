@@ -1,0 +1,5 @@
+fastapi
+uvicorn==0.22.0
+python-multipart
+psycopg2-binary
+python-dotenv
