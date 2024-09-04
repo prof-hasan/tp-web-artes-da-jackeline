@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["jest", "@testing-library/jest-dom"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -29,7 +30,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "tailwind.config.js"
-, "api/productsSearch/route.js"  ],
+    "tailwind.config.js",
+    "src/**/*.ts", 
+    "src/**/*.tsx", 
+    "jest.setup.ts"
+, "api/productsSearch/route.js", "jest.config.js"  ],
   "exclude": ["node_modules"]
 }
